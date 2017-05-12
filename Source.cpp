@@ -25,39 +25,39 @@ int main() {
 	setlocale(LC_ALL, "russian");
 
 	Mass a(6);
-	cout << "Ìàññèâ 1" << endl;
+	cout << "ÃŒÃ Ã±Ã±Ã¨Ã¢ 1" << endl;
 	a.fill();
 	cout << endl;
 
-	cout << "Ìàññèâ 2" << endl;
+	cout << "ÃŒÃ Ã±Ã±Ã¨Ã¢ 2" << endl;
 	Mass b(6);
 	b.fill();
 	cout << endl;
 
-	cout << "Ñëîæåíèå" << endl;
+	cout << "Ã‘Ã«Ã®Ã¦Ã¥Ã­Ã¨Ã¥" << endl;
 	Mass Sum = a + b;
 	Sum.show();
 	cout << endl;
 
-	cout << "Âû÷èòàíèå" << endl;
+	cout << "Ã‚Ã»Ã·Ã¨Ã²Ã Ã­Ã¨Ã¥" << endl;
 	Mass Dif = a - b;
 	Dif.show();
 	cout << endl;
 
-	cout << "Èíäåêñû" << endl;
+	cout << "ÃˆÃ­Ã¤Ã¥ÃªÃ±Ã»" << endl;
 	a.getindex();
 	cout << endl;
 
-	cout << "Çíà÷åíèÿ" << endl;
+	cout << "Ã‡Ã­Ã Ã·Ã¥Ã­Ã¨Ã¿" << endl;
 	a.getvalues();
 	cout << endl;
 
-	cout << "Ñäâèã âïðàâî íà n (óêàçàòü â main)" << endl;
+	cout << "Ã‘Ã¤Ã¢Ã¨Ã£ Ã¢Ã¯Ã°Ã Ã¢Ã® Ã­Ã  n (Ã³ÃªÃ Ã§Ã Ã²Ã¼ Ã¢ main)" << endl;
 	Mass sd = a >> 2;
 	sd.show();
 	cout << endl;
 
-	cout << "Ñäâèã âëåâî íà n (óêàçàòü â main)" << endl;
+	cout << "Ã‘Ã¤Ã¢Ã¨Ã£ Ã¢Ã«Ã¥Ã¢Ã® Ã­Ã  n (Ã³ÃªÃ Ã§Ã Ã²Ã¼ Ã¢ main )" << endl;
 	Mass sd2 = a << 1;
 	sd2.show();
 	cout << endl;
